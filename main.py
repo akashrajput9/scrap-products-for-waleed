@@ -6,11 +6,14 @@ from urllib.parse import urlparse
 
 
 endpoints = [
+    "soins-cheveux",
     "soins-cheveux/shampooing",
     "soins-cheveux/coiffants",
     "bebe-et-enfant/soins-cheveux-enfant",
     "hommes/cheveux-homme",
     "soins-cheveux/accessoires-cheveux",
+    #sub new
+    "coiffures",
     "coiffures/accessoires-de-coiffures",
     "coiffures/extensions",
     "coiffures/tissage",
@@ -19,6 +22,23 @@ endpoints = [
     "coiffures/meches-a-tresser",
     "coiffures/postiches",
     "soins-cheveux/complement-alimentaire"
+    #wigs second 
+    "perruques",
+    #3rd
+    "visages-et-corps",
+    "visages-et-corps/corps",
+    "visages-et-corps/visages",
+    "hommes/soin-visage-homme",
+    "hommes/soins-barbes",
+    "hommes/soins-corps-homme",
+    "hommes/accessoires-homme",
+    "hommes/accessoires-homme"
+    
+    #4th 
+    "make-up",
+    "make-up/teint",
+    "make-up/yeux",
+
 
 ]
 
