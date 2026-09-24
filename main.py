@@ -22,7 +22,7 @@ endpoints = [
     "coiffures/lace-wig",
     "coiffures/meches-a-tresser",
     "coiffures/postiches",
-    "soins-cheveux/complement-alimentaire"
+    "soins-cheveux/complement-alimentaire",
     #wigs second 
     "perruques",
     #3rd
@@ -33,7 +33,7 @@ endpoints = [
     "hommes/soins-barbes",
     "hommes/soins-corps-homme",
     "hommes/accessoires-homme",
-    "hommes/accessoires-homme"
+    "hommes/accessoires-homme",
     
     #4th 
     "make-up",
