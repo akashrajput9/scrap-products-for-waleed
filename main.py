@@ -56,6 +56,7 @@ def scrap_and_save(endpoint):
         print("processing page " + str(page))
         req_url = f"{url}/page/{page}/"
         response = requests.get(req_url).text
+        print("response got success")
         soup = BeautifulSoup(response, "html.parser")
         title = soup.title.text
         if title == "Page non trouvée - Afrotouch Kosmetics":
