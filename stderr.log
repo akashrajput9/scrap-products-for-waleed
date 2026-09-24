@@ -1,0 +1,36 @@
+Traceback (most recent call last):
+  File "/home/dirempum/virtualenv/base.fbaautomation.com/3.11/bin/set_env_vars.py", line 26, in <module>
+    from clselect.clselectnodejs.apps_manager import ApplicationsManager as NodeJsAppsManager
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clselect/__init__.py", line 4, in <module>
+    from .clselect import ClSelect
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clselect/clselect.py", line 18, in <module>
+    from future.moves import configparser as ConfigParser
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/future/moves/__init__.py", line 8, in <module>
+    import_top_level_modules()
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/future/standard_library/__init__.py", line 810, in import_top_level_modules
+    with exclude_local_folder_imports(*TOP_LEVEL_MODULES):
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/future/standard_library/__init__.py", line 781, in __enter__
+    module = __import__(m, level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dirempum/base.fbaautomation.com/test.py", line 1, in <module>
+    with open("category_wise_products/rtest" + ".html", 'w') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'category_wise_products/rtest.html'
+Traceback (most recent call last):
+  File "/home/dirempum/virtualenv/base.fbaautomation.com/3.11/bin/set_env_vars.py", line 26, in <module>
+    from clselect.clselectnodejs.apps_manager import ApplicationsManager as NodeJsAppsManager
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clselect/__init__.py", line 4, in <module>
+    from .clselect import ClSelect
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/clselect/clselect.py", line 18, in <module>
+    from future.moves import configparser as ConfigParser
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/future/moves/__init__.py", line 8, in <module>
+    import_top_level_modules()
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/future/standard_library/__init__.py", line 810, in import_top_level_modules
+    with exclude_local_folder_imports(*TOP_LEVEL_MODULES):
+  File "/opt/cloudlinux/venv/lib64/python3.11/site-packages/future/standard_library/__init__.py", line 781, in __enter__
+    module = __import__(m, level=0)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dirempum/base.fbaautomation.com/test.py", line 1, in <module>
+    with open("category_wise_products/rtest" + ".html", 'w') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'category_wise_products/rtest.html'
