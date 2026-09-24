@@ -1,3 +1,4 @@
+
 import os
 from bs4 import BeautifulSoup
 import requests
@@ -71,9 +72,10 @@ def scrap_and_save(endpoint):
             file_name = clean_path.rstrip('/').rsplit('/', 1)[-1]
             response = requests.get(href).text
             print("got inner page response of " + str(href))
-            with open(base_dir + file_name + ".html", 'w') as f:
+            file_name = base_dir + file_name + ".html"
+            with open(file_name, 'w') as f:
                 f.write(response)
-
+            print('file created' + str(file_name))
         page += 1
 
 
