@@ -45,7 +45,7 @@ endpoints = [
 
 
 def scrap_and_save(endpoint):
-
+    print("scraping " + endpoint)
     # endpoint_break = urlparse(endpoint).path.rstrip('/').rsplit('/', 1)
     base_dir = f"category_wise_products/{endpoint}/products/"
     os.makedirs(base_dir, exist_ok=True)
@@ -53,6 +53,7 @@ def scrap_and_save(endpoint):
 
     page = 1
     while True:
+        print("processing page " + str(page))
         req_url = f"{url}/page/{page}/"
         response = requests.get(req_url).text
         soup = BeautifulSoup(response, "html.parser")
