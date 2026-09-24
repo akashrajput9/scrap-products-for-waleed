@@ -70,6 +70,7 @@ def scrap_and_save(endpoint):
             clean_path = urlparse(href).path
             file_name = clean_path.rstrip('/').rsplit('/', 1)[-1]
             response = requests.get(href).text
+            print("got inner page response of " + str(href))
             with open(base_dir + file_name + ".html", 'w') as f:
                 f.write(response)
 
